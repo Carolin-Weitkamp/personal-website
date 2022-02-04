@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,600;1,500&display=swap");
+
+body {
+  font-family: "asap", sans-serif;
+}
+.heading {
+  color: aquamarine;
+}
+
+h3 {
+  color: blue;
+  border: 2px solid coral;
+  width: 250px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.container1 {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(206, 109, 109);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.container2 {
+  background-color: ivory;
+  border: 1px solid black;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.container3 {
+  background-color: ivory;
+  border: 1px solid black;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.container4 {
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 16px;
+  color: #ac9452;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+}
+
+.container5 {
+  width: 100vh;
+  height: 10vw;
+  padding: 20px;
+  margin: 10px;
+  background-color: yellow;
+  border: 2px solid salmon;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column
+  align-self: flex-end;
+  align-item: center;
+}

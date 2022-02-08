@@ -1,0 +1,16 @@
+.text {
+  color: rgb(59, 59, 59);
+  font-family: rubik;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.text2 {
+  color: rgb(74, 5, 82);
+  text-align: start;
+  width: 100%;
+  line-height: 16px;
+  font-size: 12px;
+  /* padding-right: 60px; */
+}

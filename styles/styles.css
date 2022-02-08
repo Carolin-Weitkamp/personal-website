@@ -1,135 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,600;1,500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,600;1,500&family=Bangers&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,600;1,500&family=Bangers&family=Rock+Salt&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,600;1,500&family=Bangers&family=Rock+Salt&family=Rubik:wght@300&display=swap");
+@import 'base.css';
+@import 'components/container.css';
+@import 'components/box.css';
+@import 'components/pictures.css';
+@import 'components/text.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,600;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,600;1,500&family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,600;1,500&family=Bangers&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,600;1,500&family=Bangers&family=Rock+Salt&family=Rubik:wght@300&display=swap');
 
 body {
-  font-family: "asap", sans-serif;
+  font-family: 'asap', sans-serif;
   margin: 0px; /* kein rand links*/
   padding-top: 100px; /* Abstand oben*/
   /* padding-left: 70px; */
   background-color: black;
 }
 .heading {
+  /* oben links Carolin Weitkamp*/
   color: rgb(255, 255, 255);
   margin-left: 20px;
-}
-
-* {
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
-
-.menue a {
-  color: #ffffff;
-}
-
-.container {
-  background-color: rgb(0, 0, 0);
-  /* border: 1px solid rgb(206, 109, 109); */
-  /* border-radius: 6px; */
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-}
-
-.container2 {
-  background-color: rgb(0, 0, 0);
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-}
-
-.container3 {
-  background-color: rgb(0, 0, 0);
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-}
-
-.box {
-  background: rgb(255, 255, 255);
-  /* box-shadow: 0px 0px 16px; */
-  width: 420px;
-  height: 420px;
-  /* color: #acaba8; */
-  /* border-radius: 5px; */
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-  padding: 16px;
-  margin: 16px;
-  margin-left: 32px;
-}
-
-.box2 {
-  background-color: #f0f8cd;
-  width: 420px;
-  height: 420px;
-  /* border-radius: 5px; */
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-  padding: 16px;
-  margin: 16px;
-  margin-left: 32px;
-}
-
-.box3 {
-  background-color: bisque;
-  /* border-radius: 5px; */
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  padding: 16px;
-  margin: 16px;
-  width: 1270px;
-  margin-left: 32px;
-}
-
-.project1-pic {
-  /* background-color: #ac9452; */
-  width: 100%;
-  height: 80%;
-  object-fit: contain;
-}
-
-.text {
-  color: rgb(59, 59, 59);
-  font-family: rubik;
-  font-size: 20px;
-  text-align: center;
-  width: 100%;
-}
-
-.text2 {
-  color: rgb(74, 5, 82);
-  text-align: start;
-  width: 100%;
-  line-height: 20px;
-  font-size: 12px;
-  /* padding-right: 60px; */
-}
-
-.menuecontainer {
-  background-color: #000000;
-  justify-content: space-between;
-  display: flex;
-  width: 100%;
-  position: fixed;
-  top: 0;
 }
 
 .menue {
@@ -139,18 +29,15 @@ body {
   display: flex;
 }
 
+.menue a {
+  color: #ffffff;
+}
+
 .menue li {
   margin-left: 1rem;
   margin-right: 1rem;
   list-style: none;
   color: rgb(255, 255, 255);
-}
-
-.footer-container {
-  background-color: #fc00db;
-  /* justify-content: flex-start; */
-  display: flex;
-  /* width: 100%; */
 }
 
 .menue-footer {
@@ -166,35 +53,3 @@ body {
   margin-left: 1rem;
   margin-right: 1rem;
 }
-
-/* .container3 {
-  background-color: ivory;
-  border: 1px solid black;
-  border-radius: 6px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100%;
-  width: 100%; } */
-
-/* .container4 {
-  background: rgb(255, 255, 255);
-  box-shadow: 0px 0px 16px;
-  color: #ac9452;
-  border-radius: 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 16px;
-} */
-
-/* .container5 {
-  width: 100vh;
-  height: 10vw;
-  padding: 20px;
-  margin: 10px;
-  background-color: yellow;
-  border: 2px solid salmon;
-  display: flex;
-  flex-direction: column;
-} */

@@ -24,10 +24,10 @@ body {
 
 .menue {
   justify-content: flex-end;
-  text-align: center;
-  width: 100%;
+  /* text-align: center; */
+  /* width: 100%; */
   display: flex;
-  margin-right: 10rem;
+  /* margin-right: 10rem; */
 }
 
 .menue a {

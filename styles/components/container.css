@@ -48,5 +48,7 @@
   background-color: #fc00db;
   /* justify-content: flex-start; */
   display: flex;
+  position: fixed;
+  bottom: 0;
   /* width: 100%; */
 }

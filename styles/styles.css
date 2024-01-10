@@ -27,6 +27,7 @@ body {
   text-align: center;
   width: 100%;
   display: flex;
+  margin-right: 10rem;
 }
 
 .menue a {

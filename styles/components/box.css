@@ -21,7 +21,7 @@
 }
 
 .box3 {
-  background-color: bisque;
+  background-color: rgba(0, 0, 0, 0);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
